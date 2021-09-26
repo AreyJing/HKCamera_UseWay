@@ -12,6 +12,8 @@
 
 ‌链接器——>输入 ——>附加依赖项 添加MvCameraControl.lib
 
+都点击确定，最后应用。
+
 这样环境就算是配好了。下面就可以直接复制例程，粘贴运行了。
 
 如果遇到Please input camera index  输入 HKvision 回车即可
