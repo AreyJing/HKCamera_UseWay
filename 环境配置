@@ -6,12 +6,14 @@
 
 ‌vc++目录——>包含目录 添加....\MVS\Development\Include
 
-‌vc++目录——>包含目录 添加...\MVS\Development\Libraries\win64
+‌vc++目录——>库目录 添加...\MVS\Development\Libraries\win64
 
 ‌链接器——>输入 ——>附加依赖项 添加MvCameraControl.lib
 
-这样环境就算是配好了。顺便找了个例程，放在了github，自行食用。
+这样环境就算是配好了。下面就可以直接复制例程，粘贴运行了。
 
 如果遇到Please input camera index  输入 HKvision 回车即可
 
 By the way，相机处于开发环境时，一定要关了客户端，不然占线打不开。
+
+（都看到这了，点个star再走吧~~）
