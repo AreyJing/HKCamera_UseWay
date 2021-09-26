@@ -1,0 +1,17 @@
+海康威视USB3.0工业相机开发环境配置：（win11+VS2017+opencv4.4）ps：win10肯定也行
+
+‌首先要在vs中配置好opencv环境，下载安装好海康威视MVS客户端确保相机可以在客户端正常使用。其次要在海康威视官网下载USB相机SDK.(这个工具里有各种说明，开发必备)。
+
+‌下一步，打开mvs所在文件目录，打开vs项目的属性（和装opencv那个相同的）。
+
+‌vc++目录——>包含目录 添加....\MVS\Development\Include
+
+‌vc++目录——>包含目录 添加...\MVS\Development\Libraries\win64
+
+‌链接器——>输入 ——>附加依赖项 添加MvCameraControl.lib
+
+这样环境就算是配好了。顺便找了个例程，放在了github，自行食用。
+
+如果遇到Please input camera index  输入 HKvision 回车即可
+
+By the way，相机处于开发环境时，一定要关了客户端，不然占线打不开。
