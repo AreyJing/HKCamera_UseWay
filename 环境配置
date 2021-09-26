@@ -4,6 +4,8 @@
 
 ‌下一步，打开mvs所在文件目录，打开vs项目的属性（和装opencv那个相同的）。
 
+（下面的文件路径根据自己的安装路径复制即可）
+
 ‌vc++目录——>包含目录 添加....\MVS\Development\Include
 
 ‌vc++目录——>库目录 添加...\MVS\Development\Libraries\win64
